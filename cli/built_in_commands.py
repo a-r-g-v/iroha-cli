@@ -4,8 +4,8 @@ from enum import Enum
 import binascii
 from cli import crypto, file_io
 from cli.exception import CliException
-from primitive_pb2 import Amount, uint256
-from commands_pb2 import Command, CreateAsset, AddAssetQuantity, CreateAccount, CreateDomain, TransferAsset
+from cli.protobuf.primitive_pb2 import Amount, uint256
+from cli.protobuf.commands_pb2 import Command, CreateAsset, AddAssetQuantity, CreateAccount, CreateDomain, TransferAsset
 
 BASE_NAME = "iroha-mizuki-cli"
 
